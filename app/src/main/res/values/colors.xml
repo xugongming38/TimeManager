@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--数字选择-->
+    <color name="year">#00A0E9</color>
+    <color name="button_background">#00A0E9</color>
+    <color name="popupwindow_background">#E0F0F0F0</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="numberpicker_line">#F08200</color>
+    <color name="numberpicker_text">#F08200</color>
+
+    <!--冲突 暂时注销
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#2a96c5</color>
+    -->
+
+    <!-- LoginActivity-->
+    <color name="login_bg">#3caee2</color>
+    <color name="login_texthint">#9dd1ee</color>
+
+    <!--MainActivity-->
+    <color name="color_bottom_layout_bg">#F2F2F2</color>
+    <color name="bottom_text_color">#666666</color>
+
+
+    <!-- 微服私访 -->
+    <color name="colorPrimary">#2a96c5</color>
+    <color name="colorPrimaryDark">#2a96c5</color>
+    <color name="colorAccent">#2a96c5</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#ff000000</color>
+    <!--drawable-->
+    <color name="menu_item_white_pressed">#f3f3f3</color>
+    <color name="bottom_all_bg_color_normal">#8c9092</color>
+    <color name="bottom_all_bg_color_pressed">#FF67A7D1</color>
+    <color name="bg_fragment_content">#FF0000</color>
+    <color name="translucent">#80000000</color>
+    <color name="color_sanling">#30000000</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="menu_item_pressed">#10000000</color>
+
+    <!--MainActivity-->
+    <color name="gray_bg">#efe7e3</color>
+    <!--HomeFragment-->
+    <color name="home_title_text_color">#333333</color>
+    <!--VisitShop-->
+    <color name="shop_item_text_color">#999999</color>
+    <color name="shop_create_text_color">#cccccc</color>
+
+    <!-- RegistActivity-->
+    <color name="regist_text_color">#666666</color>
+    <color name="regist_text_hintcolor">#cccccc</color>
+
+    <!--BaseActivity-->
+    <color name="title_bar_bg">#f0efef</color>
+
+    <!--TaskActivity-->
+    <color name="bg_checked">#f0efef</color>
+    <color name="item_text_title">#666666</color>
+    <color name="item_text_date">#999999</color>
+    <color name="taskdetail_text_color">#666666</color>
+    <color name="text_color_3">#333333</color>
+    <color name="text_color_6">#666666</color>
+    <color name="text_color_9">#999999</color>
+    <color name="text_color_c">#cccccc</color>
+
+
+</resources>

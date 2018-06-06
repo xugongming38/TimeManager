@@ -1,0 +1,207 @@
+<resources>
+    <!--饼状图-->
+    <dimen name="pie_chart_text1_size">42sp</dimen>
+    <dimen name="pie_chart_text2_size">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- loginActivity -->
+    <dimen name="login_edit_marginleft">55dp</dimen>
+    <dimen name="login_edit_marginright">55dp</dimen>
+    <dimen name="login_edit_margintop">20dp</dimen>
+    <dimen name="login_btn_marginleft">40dp</dimen>
+    <dimen name="login_btn_marginright">40dp</dimen>
+    <dimen name="login_login_margintop">24dp</dimen>
+    <dimen name="login_regist_margintop">16dp</dimen>
+    <dimen name="login_edit_hint">14sp</dimen>
+
+
+    <!--TitleBar-->
+    <dimen name="title_bar_h">43dp</dimen>
+    <dimen name="title_bar_histroy_right">16dp</dimen>
+    <dimen name="title_bar_add_padding">4dp</dimen>
+    <dimen name="title_bar_add_bottom">11dp</dimen>
+    <dimen name="title_bar_add_right">27dp</dimen>
+    <dimen name="title_bar_histroy_bottom">5dp</dimen>
+    <dimen name="title_bar_back_left">25dp</dimen>
+    <dimen name="title_bar_back_bottom">13dp</dimen>
+    <dimen name="title_bar_text_size">20sp</dimen>
+    <dimen name="title_bar_save_right">25dp</dimen>
+    <dimen name="title_bar_save_bootom">12dp</dimen>
+
+    <!--Bottom-->
+    <dimen name="bottom_img_padding">6dip</dimen>
+    <dimen name="bottom_img_left">24dp</dimen>
+    <dimen name="bottom_text_size">11sp</dimen>
+
+
+    <!--无奈-->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- 标题栏 padding -->
+    <dimen name="padding_maintop_small">4dp</dimen>
+    <dimen name="padding_maintop">4dp</dimen>
+    <dimen name="login_padding_maintop">6dp</dimen>
+    <dimen name="more_back">16dp</dimen>
+    <dimen name="more_back_left">4dp</dimen>
+    <dimen name="title_bar_height_min">52dp</dimen>
+    <dimen name="title_bar_right_size">18sp</dimen>
+
+
+    <dimen name="me_left_iv_item_margin_left">26dp</dimen>
+    <dimen name="me_left_iv_item_margin_right">16dp</dimen>
+    <dimen name="me_left_rl_item_margin_bottom">40dp</dimen>
+    <dimen name="me_rl_item_height">48sp</dimen>
+    <dimen name="more_item_padding_leftandright">22dp</dimen>
+
+    <dimen name="title_txt_size">13sp</dimen>
+    <dimen name="small_txt_size">13sp</dimen>
+    <dimen name="activity_title_below">11dp</dimen>
+
+    <dimen name="activity_img_size">15dp</dimen>
+    <dimen name="activity_head_portrait">50dp</dimen>
+    <dimen name="activity_username">16sp</dimen>
+    <dimen name="activity_time">12sp</dimen>
+    <dimen name="activity_item_content_marginleft">26dp</dimen>
+    <dimen name="activity_item_hide_marginleft">31dp</dimen>
+    <dimen name="activity_item_content_marginbotton">5dp</dimen>
+    <dimen name="activity_item_content_margintop">18dp</dimen>
+    <dimen name="activity_item_content_margintop_contacts">5dp</dimen>
+    <dimen name="activity_item_content_paddingleft">10dp</dimen>
+
+    <dimen name="home_fragment_subscript_h">10dp</dimen>
+    <dimen name="home_fragment_create_h">120dp</dimen>
+    <dimen name="home_fragment_left">18dp</dimen>
+    <dimen name="home_fragment_info_item_img_h">80dp</dimen>
+    <dimen name="home_fragment_info_item_img_w">120dp</dimen>
+    <dimen name="shape_corner_degree">4dp</dimen>
+    <dimen name="ratingbar_h">38dp</dimen>
+
+    <dimen name="activity_createvisit_edit_h">130dp</dimen>
+    <dimen name="activity_photo_text_h">31dp</dimen>
+
+    <!--微服私访-->
+
+    <!--dialog-->
+    <dimen name="pop_txt_size">16sp</dimen>
+
+    <!--MainActivity-->
+    <dimen name="home_fragment_item_info_padding">6dp</dimen>
+    <!--HomeFragment-->
+    <dimen name="home_fragment_viewpager_h">166dp</dimen>
+    <dimen name="home_fragment_point_bottom">12dp</dimen>
+    <dimen name="home_fragment_item_padding">20dip</dimen>
+    <dimen name="home_fragment_title_padding">10dp</dimen>
+    <dimen name="home_fragment_item_size">12sp</dimen>
+    <dimen name="home_fragment_title_left">23dp</dimen>
+    <dimen name="home_fragment_info_item_size">14sp</dimen>
+
+    <!--TrianFragment-->
+    <dimen name="train_fragment_item_bottom">17dp</dimen>
+    <dimen name="train_fragment_item_img_bottom">26dp</dimen>
+
+    <!--TrainDetailActivity-->
+    <dimen name="train_detail_star_top">22dp</dimen>
+    <dimen name="train_detail_star_bootom">27dp</dimen>
+    <dimen name="train_detail_star_left">13dp</dimen>
+
+    <!--TrainManageActivity-->
+    <dimen name="train_manage_btn_padding">15dp</dimen>
+    <dimen name="train_manage_btn_top">23dp</dimen>
+    <dimen name="train_manage_text_padding">60dp</dimen>
+    <dimen name="train_manage_img_top">12dp</dimen>
+    <dimen name="train_manage_img_padding">20dip</dimen>
+
+    <!--PhotoActivity-->
+    <dimen name="photo_head_right">40dp</dimen>
+    <dimen name="photo_head_left">24dp</dimen>
+    <dimen name="photo_gallery_left">23dp</dimen>
+    <dimen name="photo_gallery_top">26dp</dimen>
+    <dimen name="photo_gallery_bottom">47dp</dimen>
+
+    <!--FeedbackActivity-->
+    <dimen name="feedback_head_left">24dp</dimen>
+    <dimen name="feedback_head_bottom">37dp</dimen>
+    <dimen name="feedback_start_left">13dp</dimen>
+    <dimen name="feedback_edit_padding">4dp</dimen>
+    <dimen name="feedback_edit_left">22dp</dimen>
+    <dimen name="activity_feedback_edit_h">210dp</dimen>
+
+    <!--VisitShopActivity-->
+    <dimen name="shop_activity_search_left">62dp</dimen>
+    <dimen name="shop_activity_search_padding">9dp</dimen>
+    <dimen name="shop_activity_item_padding">15dp</dimen>
+    <dimen name="shop_activity_item_top">8dp</dimen>
+    <dimen name="line_padding">2dp</dimen>
+    <dimen name="edittext_input_padding">4dp</dimen>
+
+    <!--ShopDetailActivity-->
+    <dimen name="shop_detail_up_bottom">7dp</dimen>
+    <dimen name="shop_detail_title_h">31dp</dimen>
+    <dimen name="shop_detail_imgs_top">16dp</dimen>
+    <dimen name="shop_detail_imgs_spac">1dp</dimen>
+    <!--ImageViewActivity-->
+    <dimen name="imageview_img_top">31dp</dimen>
+    <dimen name="imageview_arrow_padding">16dp</dimen>
+    <dimen name="imageview_arrow_top">115dp</dimen>
+    <dimen name="imageview_btn_top">24dp</dimen>
+    <dimen name="imageview_btn_padding">40dp</dimen>
+
+
+    <!-- registActivity -->
+    <dimen name="regist_text_margintop">28dp</dimen>
+    <dimen name="regist_text_marginleft">22dp</dimen>
+    <dimen name="regist_text_size">14sp</dimen>
+    <dimen name="regist_edit_size">16sp</dimen>
+    <dimen name="regist_btn_margin">40dp</dimen>
+
+    <!-- taskActivity -->
+    <dimen name="task_item_ivstate_marginleft">25dp</dimen>
+    <dimen name="task_item_ivstate_margintop">14dp</dimen>
+    <dimen name="task_item_layout_marginleft">9dp</dimen>
+    <dimen name="task_item_texttitle_marginleft">9dp</dimen>
+    <dimen name="task_item_texttitle_size">16sp</dimen>
+    <dimen name="task_item_textdate_size">12sp</dimen>
+    <dimen name="task_item_text_margintop">16dp</dimen>
+    <dimen name="task_item_textdate_margintop">7dp</dimen>
+    <dimen name="task_item_textdate_marginbottom">16dp</dimen>
+    <dimen name="task_detail">16dp</dimen>
+    <dimen name="task_detail_textsize_left">14sp</dimen>
+    <dimen name="task_detail_textsize_right">16sp</dimen>
+    <dimen name="task_detail_text_marginleft">10dp</dimen>
+
+    <!-- common -->
+    <dimen name="textsize_12">12sp</dimen>
+    <dimen name="textsize_14">14sp</dimen>
+    <dimen name="textsize_16">16sp</dimen>
+    <dimen name="textsize_22">22sp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_13">13dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_23">23dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_26">26dp</dimen>
+    <dimen name="margin_28">28dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_43">43dp</dimen>
+    <dimen name="margin_47">47dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_70">70dp</dimen>
+
+    <dimen name="height_120">120dp</dimen>
+    <dimen name="height_60">60dp</dimen>
+    <dimen name="width_100">100dp</dimen>
+    <dimen name="width_120">120dp</dimen>
+    <dimen name="height_170">170dp</dimen>
+</resources>

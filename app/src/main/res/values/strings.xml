@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">时间管理</string>
+
+    <string name="txt_home">今日</string>
+    <string name="txt_shop">任务</string>
+    <string name="txt_visit">学霸</string>
+    <string name="txt_train">统计</string>
+    <string name="txt_me">个人</string>
+
+    <string name="no_permission">权限不足</string>
+    <string name="no_permission_advice">需要为该App开启辅助功能才能正常运行</string>
+    <string name="accessibility_description">开启服务是使用TIME的"监测App打开"的功能,开启后才能使用TIME的核心功能\n\n提示：打开服务时，会收到系统例行的警示提醒，TIME不会进行侵害用户利益的行为，请放心使用</string>
+    <string name="cancel">取消</string>
+    <string name="go_open">去开启</string>
+    <!-- 倒计时小时、分钟和秒数-->
+    <string name="countHour">countHour</string>
+    <string name="countMinute">countMinute</string>
+    <string name="countSecond">countSecond</string>
+
+    <string name="app_of_open">appOfOpen</string>
+
+    <string name="is_open_a_app">isOpenAAPP</string>
+
+    <!--广播Actions-->
+    <string name="countDownAction">com.xugongming38.timemanager.service.CountDownService.countDown</string>
+    <string name="countFinishAction">com.xugongming38.timemanager.service.CountDownService.countFinish</string>
+    <string name="notify_user_action">com.xugongming38.timemanager.receiver.MonitorAppsReceiver</string>
+    <string name="open_a_app">com.xugongming38.timemanager.service.MonitorAppsService.openApp</string>
+    <string name="close_a_app">com.xugongming38.timemanager.service.MonitorAppsService.closeApp</string>
+
+
+    <string name="cv_app_name">CalendarView</string>
+    <string-array name="lunar_first_of_month">
+        <item>春节</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+
+    <string-array name="tradition_festival">
+        <item>除夕</item>
+        <item>0101春节</item>
+        <item>0115元宵</item>
+        <item>0505端午</item>
+        <item>0707七夕</item>
+        <item>0815中秋</item>
+        <item>0909重阳</item>
+    </string-array>
+
+    <string-array name="lunar_str">
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>初四</item>
+        <item>初五</item>
+        <item>初六</item>
+        <item>初七</item>
+        <item>初八</item>
+        <item>初九</item>
+        <item>初十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+        <item>三十</item>
+    </string-array>
+
+    <string-array name="solar_festival">
+        <item>0101元旦</item>
+        <item>0214情人节</item>
+        <item>0308妇女节</item>
+        <item>0312植树节</item>
+        <item>0315消权日</item>
+        <item>0401愚人节</item>
+        <item>0501劳动节</item>
+        <item>0504青年节</item>
+        <item>0601儿童节</item>
+        <item>0701建党节</item>
+        <item>0801建军节</item>
+        <item>0910教师节</item>
+        <item>1001国庆节</item>
+        <item>1224平安夜</item>
+        <item>1225圣诞节</item>
+    </string-array>
+
+    <string-array name="solar_term">
+        <item>春分</item>
+        <item>清明</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+    </string-array>
+
+    <string-array name="western_festival">
+
+    </string-array>
+
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+</resources>

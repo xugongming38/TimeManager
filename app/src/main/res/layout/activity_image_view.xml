@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    android:background="@color/colorAccent">
+    <include layout="@layout/title_bar_activity"
+             android:id="@+id/title_up_layout" />
+    <LinearLayout
+        android:id="@+id/image_view_ly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_up_layout"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/imageview_img_top">
+            <ImageView
+                android:id="@+id/image_view_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/imageview_arrow_top"
+                android:layout_marginBottom="@dimen/imageview_arrow_top"
+                android:padding="@dimen/imageview_arrow_padding"
+                android:src="@drawable/selector_arrow_left"
+                />
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/image_view_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/image_view_right"
+                android:layout_toRightOf="@+id/image_view_left"/>
+            <ImageView
+                android:id="@+id/image_view_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/imageview_arrow_top"
+                android:layout_marginBottom="@dimen/imageview_arrow_top"
+                android:padding="@dimen/imageview_arrow_padding"
+                android:src="@drawable/selector_arrow_right"
+                />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/image_view_detele"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/imageview_btn_padding"
+            android:layout_marginRight="@dimen/imageview_btn_padding"
+            android:layout_marginTop="@dimen/imageview_btn_top"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape_corner_red"
+            android:text="删   除"
+            android:textSize="@dimen/home_fragment_info_item_size"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

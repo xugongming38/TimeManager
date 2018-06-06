@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f2f2f2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/width_120"
+                    android:layout_height="@dimen/height_120"
+                    android:layout_marginTop="@dimen/margin_16"
+                    android:background="@color/white"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="60dp"
+                    app:cardElevation="20dp">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/iv_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/touxiang"/>
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#110d0a"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/tv_job"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text=""
+                    android:textColor="#999999"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <com.xugongming38.timemanager.base.SetItemView
+                android:id="@+id/rl_me"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:isShowUnderLine="false"
+                app:leftIcon="@drawable/medata"
+                app:leftText="个人资料"
+                app:rightIcon="@drawable/task_arrow"
+                app:textColor="@color/text_color_6"
+                app:textSize="16"/>
+
+            <com.xugongming38.timemanager.base.SetItemView
+                android:id="@+id/rl_clear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                app:leftIcon="@drawable/clearcache"
+                app:leftText="清除缓存"
+                app:rightIcon="@drawable/task_arrow"
+                app:textColor="@color/text_color_6"
+                app:textSize="16"/>
+
+            <com.xugongming38.timemanager.base.SetItemView
+                android:id="@+id/rl_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:leftIcon="@drawable/appfeedback"
+                app:leftText="意见反馈"
+                app:rightIcon="@drawable/task_arrow"
+                app:textColor="@color/text_color_6"
+                app:textSize="16"/>
+
+            <com.xugongming38.timemanager.base.SetItemView
+                android:id="@+id/rl_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:leftIcon="@drawable/about"
+                app:leftText="关于APP"
+                app:rightIcon="@drawable/task_arrow"
+                app:textColor="@color/text_color_6"
+                app:textSize="16"/>
+
+            <com.xugongming38.timemanager.base.SetItemView
+                android:id="@+id/rl_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:leftIcon="@drawable/newversion"
+                app:leftText="新版本检测"
+                app:rightIcon="@drawable/task_arrow"
+                app:textColor="@color/text_color_6"
+                app:textSize="16"/>
+
+            <com.xugongming38.timemanager.base.SetItemView
+                android:id="@+id/rl_exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="14dp"
+                app:isShowUnderLine="false"
+                app:leftIcon="@drawable/appexit"
+                app:leftText="退出应用"
+                app:rightIcon="@drawable/task_arrow"
+                app:textColor="@color/text_color_6"
+                app:textSize="16"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

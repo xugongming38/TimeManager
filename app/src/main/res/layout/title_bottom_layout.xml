@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_menu_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/color_bottom_layout_bg"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/txt_menu_bottom_today"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:drawablePadding="@dimen/bottom_img_padding"
+        android:drawableTop="@drawable/menu_today_style"
+        android:gravity="center"
+        android:padding="@dimen/bottom_img_padding"
+        android:text="@string/txt_home"
+        android:textColor="@color/color_txt_bottom_style"
+        android:textSize="@dimen/bottom_text_size"/>
+
+    <TextView
+        android:id="@+id/txt_menu_bottom_task"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:drawablePadding="@dimen/bottom_img_padding"
+        android:drawableTop="@drawable/menu_task_style"
+        android:gravity="center"
+        android:padding="@dimen/bottom_img_padding"
+        android:text="@string/txt_shop"
+        android:textColor="@color/color_txt_bottom_style"
+        android:textSize="@dimen/bottom_text_size"/>
+    <TextView
+        android:id="@+id/txt_menu_bottom_dork"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:drawablePadding="@dimen/bottom_img_padding"
+        android:drawableTop="@drawable/menu_dork_style"
+        android:gravity="center"
+        android:padding="@dimen/bottom_img_padding"
+        android:text="@string/txt_visit"
+        android:textColor="@color/color_txt_bottom_style"
+        android:textSize="@dimen/bottom_text_size"/>
+
+    <TextView
+        android:id="@+id/txt_menu_bottom_statistic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:drawablePadding="@dimen/bottom_img_padding"
+        android:drawableTop="@drawable/menu_statistic_style"
+        android:gravity="center"
+        android:padding="@dimen/bottom_img_padding"
+        android:text="@string/txt_train"
+        android:textColor="@color/color_txt_bottom_style"
+        android:textSize="@dimen/bottom_text_size"/>
+
+    <TextView
+        android:id="@+id/txt_menu_bottom_me"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:drawablePadding="@dimen/bottom_img_padding"
+        android:drawableTop="@drawable/menu_me_style"
+        android:gravity="center"
+        android:padding="@dimen/bottom_img_padding"
+        android:text="@string/txt_me"
+        android:textColor="@color/color_txt_bottom_style"
+        android:textSize="@dimen/bottom_text_size"/>
+</LinearLayout>

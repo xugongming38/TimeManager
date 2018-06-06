@@ -1,0 +1,91 @@
+<resources>
+    <!-- 自定义popupWindow_WorkingAge -->
+    <style name="AnimBottom" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popupwindow_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/popupwindow_exit_anim</item>
+    </style>
+
+    <!--ratingbar-->
+    <style name="roomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/star_custom</item>
+        <item name="android:dividerHeight">16dp</item>
+        <item name="android:dividerPadding">16dp</item>
+        <item name="android:minHeight">32dp</item>
+        <item name="android:maxHeight">32dp</item>
+    </style>
+
+    <!-- 分段显示-->
+    <declare-styleable name="SegmentControl">
+        <attr name="cornerRadius" format="dimension|reference" />
+        <attr name="colors" format="color|reference" />
+        <attr name="texts" format="string|reference" />
+        <attr name="android:textSize" />
+        <attr name="direction" format="enum">
+            <enum name="horizon" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="gaps" format="dimension|reference" />
+        <attr name="horizonGap" format="dimension|reference" />
+        <attr name="verticalGap" format="dimension|reference" />
+    </declare-styleable>
+
+    <!-- 时间选择 -->
+    <style name="MyCustomBetterPickerTheme">
+        <item name="bpDialogBackground">@drawable/custom_dialog_background</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--开关-->
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <!-- 用于起始页 start -->
+    <style name="Theme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#4dd0e1</item>
+        <item name="colorPrimaryDark">#0097a7</item>
+        <item name="colorAccent">#00bcd4</item>
+
+    </style>
+
+    <style name="Theme" parent="Theme.Base">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="Theme.AnimationStyle.Fade" parent="android:style/Animation.Activity">
+        <!--<item name="android:windowEnterAnimation">@anim/anim_activity_fade_in</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/anim_activity_fade_out</item>-->
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_activity_fade_out</item>
+    </style>
+
+
+    <style name="Theme.AnimationStyle.Fade.Scale" parent="Theme.AnimationStyle.Fade">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_entry_fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_entry_scale_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_entry_fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_entry_scale_out</item>
+    </style>
+
+    <style name="Theme.Launch" parent="Theme">
+        <item name="android:windowBackground">@drawable/ic_launcher_bg</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowAnimationStyle">@style/Theme.AnimationStyle.Fade.Scale</item>
+    </style>
+
+    <!-- 用于起始页 end -->
+
+</resources>

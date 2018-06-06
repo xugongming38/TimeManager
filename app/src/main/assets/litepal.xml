@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="time" />
+    <version value="1" />
+    <!--
+    	Define your models in the list with mapping tag, LitePal will
+    	create tables for each mapping class. The supported fields
+    	defined in models will be mapped into columns.
+    	For example:    
+    	<list>
+    		<mapping class="com.test.model.Reader" />
+    		<mapping class="com.test.model.Magazine" />
+    	</list>
+    -->
+    <mapping class="com.xugongming38.timemanager.datamodel.User"/>
+    <mapping class ="com.xugongming38.timemanager.datamodel.Comment"/>
+    <mapping class ="com.xugongming38.timemanager.datamodel.Work"/>
+    <list>
+    </list>
+    <storage value="internal" />
+</litepal>

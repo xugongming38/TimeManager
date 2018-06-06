@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+    defaultConfig {
+        applicationId "com.xugongming38.timemanager"
+        minSdkVersion 22
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    testCompile 'junit:junit:4.12'
+    //用于开关按钮
+    compile 'com.kyleduo.switchbutton:library:2.0.0'
+    //cardview
+    compile 'com.android.support:cardview-v7:25.3.1'
+    //gif
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.1.15'
+    //选择时间
+    compile 'com.code-troopers.betterpickers:library:3.1.0'
+    // xrecyclerview
+    compile 'com.jcodecraeer:xrecyclerview:1.5.9'
+    // 数据库litepal
+    compile 'org.litepal.android:core:1.6.1'
+    //日历·
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    //图表
+    compile 'com.github.lecho:hellocharts-library:1.5.8@aar'
+    compile 'com.github.chrisbanes:PhotoView:2.0.0'
+}
